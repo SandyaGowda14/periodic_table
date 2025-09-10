@@ -1,0 +1,524 @@
+*{
+    margin: auto;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+}
+.heading{text-align: center;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+.box{
+   width: 200px;
+   height: 150px;
+   background-color : darkcyan;
+   text-align: center;
+   margin-left: 15%;
+   font-size: 25px;
+   border-radius: 10px;
+   padding-top: 20px;
+   color: black;
+}
+.box:hover{
+  color: white;
+ 
+   
+}
+.box2{
+   width: 25px;
+   height: 40px;
+   background-color:  lightcoral;
+   position: absolute;
+   top: 94px;
+   right: 68%;
+   border-radius: 5px;
+}
+ 
+.othernonmetals{
+  display: inline-block;
+   text-align: right;
+   color: white;
+   position: absolute;
+   top: 100px;
+   right: 58%;
+   font-size: 20px;
+}  
+.box3{
+  width: 25px;
+  height: 40px;
+  background-color: rgb(220, 144, 4) ;
+  position: absolute;
+  top: 150px;
+  right: 68%;
+  border-radius: 5px;
+}
+.alkalimetals{
+  text-align: right;
+  position: absolute;
+  top: 160px;
+  right: 60%;
+  font-size: 20px;
+}
+.box4{
+  width: 25px;
+  height: 40px;
+  background-color:rgb(246, 204, 52)  ;
+  position: absolute;
+  top: 205px;
+  right: 68%;
+  border-radius: 5px;
+}
+.alkalineearthmetals{
+  text-align: right;
+  position: absolute;
+  top: 215px;
+  right: 56%;
+  font-size: 20px;
+}
+.box5{
+  width: 25px;
+  height: 40px;
+  background-color: rgb(0, 140, 255) ;
+  position: absolute;
+  top: 95px;
+  right: 53%;
+  border-radius: 5px;
+}
+
+.noblegas{
+  text-align: right;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: 46%;
+  font-size: 20px;
+}  
+.box6{
+  width: 25px;
+  height: 40px;
+  background-color: rgb(52, 160, 77) ;
+  position: absolute;
+  top: 150px;
+  right: 53%;
+  border-radius: 5px;
+}
+ .metalloids{
+  text-align: right;
+  position: absolute;
+  top: 160px;
+  left: 48%;
+  font-size: 20px;
+ }
+ .box7{
+  width: 25px;
+  height: 40px;
+  background-color:skyblue  ;
+  position: absolute;
+  top: 205px;
+  right: 53%;
+  border-radius: 5px;
+}
+ .halogens{
+  text-align: right;
+  position: absolute;
+  top: 215px;
+  left: 48%;
+  font-size: 20px;
+ }
+ .box8{
+  width: 25px;
+  height: 40px;
+  background-color: rgba(255, 130, 130, 0.45);
+  position: absolute;
+  top: 95px;
+  left: 56%;
+  border-radius: 5px;
+ }
+ .transitionmetal{
+  text-align: right;
+  position: absolute;
+  top: 100px;
+  left: 59%;
+  font-size: 20px;
+ }
+ .box9{
+  width: 25px;
+  height: 40px;
+  background-color:  gray;
+  position: absolute;
+  top: 150px;
+  left: 56%;
+  border-radius: 5px;
+ }
+ .posttransition{
+  text-align: right;
+  position: absolute;
+  top: 155px;
+  left: 59%;
+  font-size: 20px;
+ }
+ .box10{
+  width: 25px;
+  height: 40px;
+  background-color: rgb(244, 90, 116);
+  position: absolute;
+  top: 200px;
+  left: 56%;
+  border-radius: 5px;
+ }
+ .lanthanoids{
+  text-align: right;
+  position: absolute;
+  top: 210px;
+  left: 59%;
+  font-size: 20px;
+ }
+ .box11{
+  width: 25px;
+  height: 40px;
+  background-color: rgb(132, 130, 255);
+  position: absolute;
+  top: 94px;
+  left: 72%;
+  border-radius: 5px;
+ }
+ .actinoids{
+  text-align: right;
+  position: absolute;
+  top: 98px;
+  left: 75%;
+  font-size: 20px;
+ }
+ .r1{
+  position: absolute;
+  bottom: 510px;
+  left: 5%;
+  font-size: 20px;
+ }
+ .r2{
+  position: absolute;
+  bottom: 440px;
+  left: 5%;
+  font-size: 20px;
+ }
+ .r3{
+  position: absolute;
+  bottom: 370px;
+  left: 5%;
+  font-size: 20px;
+ }
+ .r4{
+  position: absolute;
+  bottom: 300px;
+  left: 5%;
+  font-size: 20px;
+ }
+ .r5{
+  position: absolute;
+  bottom: 230px;
+  left: 5%;
+  font-size: 20px;
+ }
+ .r6{
+  position: absolute;
+  bottom: 160px;
+  left: 5%;
+  font-size: 20px;
+ }
+ .r7{
+  position: absolute;
+  bottom: 90px;
+  left: 5%;
+  font-size: 20px;
+ }
+  
+.firsttable{
+    width: 1250px;
+    height: 500px;
+    border-top: none;
+    border-left: none;
+ }
+  td{
+   text-align: center ;
+   font-weight: 700;
+   border: 1px solid white;
+  color: black;
+  }
+  td:hover{
+   color: white;
+   filter: brightness(1);
+ 
+  }
+ .heading1{
+    text-align: center;
+    margin-top: 25px;
+ }
+ .secondtable{ width: 1250px;
+    height: 130px;
+    border-top: none;
+border-left: none;
+ }
+ .none{
+    border: none;
+    border-collapse: collapse;
+ }
+ .color1{
+    background-color: rgb(192, 85, 85);
+ }
+ .color2{
+    background-color: rgb(27, 102, 163);
+ }
+ .color3{
+   background-color: rgb(220, 144, 4);
+ }
+ .color4{
+   background-color:rgb(246, 204, 52) ;
+ }
+ .color11{
+   background-color: rgb(220, 144, 4);
+ }
+ .color19{
+   background-color: rgb(220, 144, 4);
+ }
+ .color37{
+   background-color: rgb(220, 144, 4);
+ }
+ .color55{
+   background-color: rgb(220, 144, 4);
+ }
+ .color87{
+   background-color: rgb(220, 144, 4);
+ }
+ .color4{
+   background-color: rgb(246, 204, 52);
+ }
+ .color12{
+   background-color: rgb(246, 204, 52);
+ }
+ .color20{
+   background-color: rgb(246, 204, 52);
+ }
+ .color38{
+   background-color: rgb(246, 204, 52);
+ }
+ .color56{
+   background-color: rgb(246, 204, 52);
+ }
+ .color88{
+   background-color: rgb(246, 204, 52);
+ }
+ .color21{
+   background-color: rgba(255, 130, 130, 0.45);
+ }
+ .color22{
+   background-color: rgba(255, 130, 130, 0.45);
+ }
+ .color23{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color24{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color25{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color26{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color27{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color28{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color29{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color30{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color39{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color40{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color41{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color42{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color43{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color44{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color45{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color46{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color47{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color48{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color72{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color73{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color74{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color75{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color76{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color77{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color78{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color79{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color80{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color104{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color105{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color106{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color107{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color108{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color109{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color110{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color111{
+   background-color: rgba(255, 130, 130, 0.45);
+ } .color112{
+   background-color: rgba(255, 130, 130, 0.45);
+ }
+ .color57{
+   background-color: rgb(244, 90, 116);
+ }
+ .color89{
+   background-color: rgb(132, 130, 255);
+ }.color58{
+   background-color: rgb(244, 90, 116);
+ }.color59{
+   background-color: rgb(244, 90, 116);
+ }.color60{
+   background-color: rgb(244, 90, 116);
+ }.color61{
+   background-color: rgb(244, 90, 116);
+ }.color62{
+   background-color: rgb(244, 90, 116);
+ }.color63{
+   background-color: rgb(244, 90, 116);
+ }.color64{
+   background-color: rgb(244, 90, 116);
+ }.color65{
+   background-color: rgb(244, 90, 116);
+ }.color66{
+   background-color: rgb(244, 90, 116);
+ }.color67{
+   background-color: rgb(244, 90, 116);
+ }.color68{
+   background-color: rgb(244, 90, 116);
+ }.color69{
+   background-color: rgb(244, 90, 116);
+ }.color70{
+   background-color: rgb(244, 90, 116);
+ }.color71{
+   background-color: rgb(244, 90, 116);
+ } .color90{
+   background-color: rgb(132, 130, 255);
+ } .color91{
+   background-color: rgb(132, 130, 255);
+ } .color92{
+   background-color: rgb(132, 130, 255);
+ } .color93{
+   background-color: rgb(132, 130, 255);
+ } .color94{
+   background-color: rgb(132, 130, 255);
+ } .color95{
+   background-color: rgb(132, 130, 255);
+ } .color96{
+   background-color: rgb(132, 130, 255);
+ } .color97{
+   background-color: rgb(132, 130, 255);
+ } .color98{
+   background-color: rgb(132, 130, 255);
+ } .color99{
+   background-color: rgb(132, 130, 255);
+ } .color100{
+   background-color: rgb(132, 130, 255);
+ } .color101{
+   background-color: rgb(132, 130, 255);
+ } .color102{
+   background-color: rgb(132, 130, 255);
+ } .color103{
+   background-color: rgb(132, 130, 255);
+ }.color10{
+   background-color: rgb(27, 102, 163);
+}.color18{
+   background-color:rgb(27, 102, 163);
+}.color36{
+   background-color: rgb(27, 102, 163);
+}.color54{
+   background-color: rgb(27, 102, 163);
+}.color86{
+   background-color: rgb(27, 102, 163);
+}.color118{
+   background-color: rgb(27, 102, 163);
+}.color5{
+   background-color: rgb(37, 213, 146);
+}.color32{
+   background-color: rgb(37, 213, 146);
+}.color14{
+   background-color: rgb(37, 213, 146);
+}.color33{
+   background-color: rgb(37, 213, 146);
+}.color51{
+   background-color: rgb(37, 213, 146);
+}.color52{
+   background-color: rgb(37, 213, 146);
+}.color84{
+   background-color: rgb(37, 213, 146);
+}.color6{
+   background-color: rgb(52, 160, 77);
+}.color7{
+   background-color: rgb(52, 160, 77);
+}.color8{
+   background-color: rgb(52, 160, 77);
+}.color15{
+   background-color: rgb(52, 160, 77);
+}.color16{
+   background-color: rgb(52, 160, 77);
+}.color34{
+   background-color: rgb(52, 160, 77);
+}.color13{
+   background-color:  gray;
+}.color13{
+   background-color:  gray;
+}.color31{
+   background-color:  gray;
+}.color49{
+   background-color:  gray;
+}.color50{
+   background-color:  gray;
+}.color81{
+   background-color:  gray;
+}.color82{
+   background-color:  gray;
+}.color83{
+   background-color:  gray;
+}.color113{
+   background-color:  gray;
+}.color114{
+   background-color:  gray;
+}.color115{
+   background-color:  gray;
+}.color116{
+   background-color:  gray;
+}.color9{
+   background-color: skyblue;
+}.color17{
+   background-color: skyblue;
+}.color35{
+   background-color: skyblue;
+}.color53{
+   background-color: skyblue;
+}.color85{
+   background-color: skyblue;
+}.color117{
+   background-color: skyblue;
+}
